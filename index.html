@@ -1,17 +1,40 @@
 <html>
 <head>
-    <title>Form</title>
+<title>Form</title>
+
+<style>
+
+body{
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* center horizontal */
+    justify-content: center; /* center vertical */
+    height: 100vh;
+    margin: 0;
+}
+
+form{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+h1{
+    text-align: center;
+}
+
+</style>
+
 </head>
 
-<body bgcolor="lightgreen">
+<body>
 
-<center>
-    <h1>Student Registration Form</h1>
-</center>
+<h1>Student Registration Form</h1>
 
 <form action="https://formsubmit.co/zaidmohd64849@gmail.com" method="POST" enctype="multipart/form-data">
 
-<!-- Email settings -->
 <input type="hidden" name="_subject" value="New Student Registration">
 <input type="hidden" name="_captcha" value="false">
 
